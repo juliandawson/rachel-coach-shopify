@@ -7,6 +7,7 @@
   .grid__item--left-col,
   .grid__item--right-col {
     flex-grow: 1;
+    max-width: 100%;
     width: 100%;
   }
 
@@ -32,19 +33,21 @@
   }
 {%- endstyle -%}
 
-<div class="page-width">
-  <div class="grid scroll-trigger animate--slide-in">
-    <div class="grid__item grid__item--left-col scroll-trigger animate--slide-in">
-      <div class="card">
-        <div class="card__inner">
-          <h2>{{ section.settings.left_content }}</h2>
+<div class="color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
+  <div class="page-width scroll-trigger animate--slide-in">
+    <div class="grid">
+      <div class="grid__item grid__item--left-col scroll-trigger animate--slide-in">
+        <div class="card">
+          <div class="card__inner">
+            <h2>{{ section.settings.left_content }}</h2>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="grid__item grid__item--right-col scroll-trigger animate--slide-in">
-      <div class="card">
-        <div class="card__inner">
-          <p>{{ section.settings.right_content }}</p>
+      <div class="grid__item grid__item--right-col scroll-trigger animate--slide-in">
+        <div class="card">
+          <div class="card__inner">
+            <p>{{ section.settings.right_content }}</p>
+          </div>
         </div>
       </div>
     </div>
