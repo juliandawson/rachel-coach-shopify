@@ -1,31 +1,31 @@
 {%- style -%}
-  .two-column {
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
-  .two-column__inner {
-    display: flex;
-    flex-wrap: wrap;
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
   }
 
-  .column {
-    box-sizing: border-box;
-  }
-
-  .left {
+  .grid > .grid__item--1\/4-col {
     width: 25%;
   }
 
-  .right {
+  .grid > .grid__item--3\/4-col {
     width: 75%;
   }
 {%- endstyle -%}
 
-<div class="two-column">
-  <div class="two-column__inner page-width">
-    <div class="column left">
+<div class="page-width">
+  <div class="grid scroll-trigger animate--slide-in">
+    <div class="grid__item grid__item--1/4-col scroll-trigger animate--slide-in">
       <h2>{{ section.settings.left_content }}</h2>
     </div>
-    <div class="column right">
+    <div class="grid__item grid__item--3/4-col scroll-trigger animate--slide-in">
       <p>{{ section.settings.right_content }}</p>
     </div>
   </div>
