@@ -1,38 +1,32 @@
 {%- style -%}
-  .two-column .two-column__inner {
+  .two-column {
+  }
+
+  .two-column__inner {
     display: flex;
     flex-wrap: wrap;
   }
 
-  .two-column .column {
-    padding: 10px;
+  .column {
+    box-sizing: border-box;
   }
 
-  .two-column .left {
-    flex: 1 1 33%;
+  .left {
+    width: 25%;
   }
 
-  .two-column .right {
-    flex: 1 1 66%;
-  }
-
-  @media (max-width: 768px) {
-    .two-column .left,
-    .two-column .right {
-      flex: 1 1 100%;
-    }
+  .right {
+    width: 75%;
   }
 {%- endstyle -%}
 
 <div class="two-column">
   <div class="two-column__inner page-width">
-    <div class="row">
-      <div class="column left">
-        <h2>{{ section.settings.left_content }}</h2>
-      </div>
-      <div class="column right">
-        <p>{{ section.settings.right_content }}</p>
-      </div>
+    <div class="column left">
+      <h2>{{ section.settings.left_content }}</h2>
+    </div>
+    <div class="column right">
+      <p>{{ section.settings.right_content }}</p>
     </div>
   </div>
 </div>
