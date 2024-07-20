@@ -10,13 +10,13 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
 
-    .grid > .grid__item--left-col {
-      max-width: calc(25% - var(--grid-desktop-horizontal-spacing) * 1 / 4)
+    .grid__item--left-col {
+      flex-grow: 0;
       width: calc(25% - var(--grid-desktop-horizontal-spacing) * 1 / 4)
     }
 
-    .grid > .grid__item--right-col {
-      max-width: calc(75% - var(--grid-desktop-horizontal-spacing) * 3 / 4)
+    .grid__item--right-col {
+      flex-grow: 1;
       width: calc(75% - var(--grid-desktop-horizontal-spacing) * 3 / 4)
     }
   }
