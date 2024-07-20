@@ -1,43 +1,40 @@
-<div class="two-column-section">
+<!-- sections/two-columns.liquid -->
+<div class="two-columns-section">
   <div class="container">
     <div class="row">
       <div class="column left">
         <!-- Left column content -->
-        {% if section.settings.left_content != blank %}
-          {{ section.settings.left_content }}
-        {% endif %}
+        {{ section.settings.left_content }}
       </div>
       <div class="column right">
         <!-- Right column content -->
-        {% if section.settings.right_content != blank %}
-          {{ section.settings.right_content }}
-        {% endif %}
+        {{ section.settings.right_content }}
       </div>
     </div>
   </div>
 </div>
 
 <style>
-  .two-column-section .container {
+  .two-columns-section .container {
     display: flex;
     flex-wrap: wrap;
   }
 
-  .two-column-section .column {
+  .two-columns-section .column {
     padding: 10px;
   }
 
-  .two-column-section .left {
+  .two-columns-section .left {
     flex: 1 1 33%;
   }
 
-  .two-column-section .right {
+  .two-columns-section .right {
     flex: 1 1 66%;
   }
 
   @media (max-width: 768px) {
-    .two-column-section .left,
-    .two-column-section .right {
+    .two-columns-section .left,
+    .two-columns-section .right {
       flex: 1 1 100%;
     }
   }
@@ -45,12 +42,7 @@
 
 {% schema %}
 {
-  "name": "Two Column",
-  "tag": "section",
-  "class": "section",
-  "disabled_on": {
-    "groups": ["header", "footer"]
-  },
+  "name": "Two Columns",
   "settings": [
     {
       "type": "textarea",
@@ -63,6 +55,11 @@
       "id": "right_content",
       "label": "Right Column Content",
       "default": "<p>Right column content goes here.</p>"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Two Columns"
     }
   ]
 }
