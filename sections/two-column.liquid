@@ -40,7 +40,7 @@
         <div class="card">
           <div class="card__inner">
             <h2 class="inline-richtext">
-              {{ section.settings.heading }}
+              {{ section.settings.title }}
             </h2>
           </div>
         </div>
@@ -48,9 +48,7 @@
       <div class="grid__item grid__item--right-col scroll-trigger animate--slide-in">
         <div class="card">
           <div class="card__inner">
-            <div class="rte">
-              <p>{{ section.settings.right_content }}</p>
-            </div>
+            <div class="rte">{{ section.settings.text }}</div>
           </div>
         </div>
       </div>
@@ -69,15 +67,15 @@
   "settings": [
     {
       "type": "inline_richtext",
-      "id": "heading",
+      "id": "title",
       "default": "Heading",
       "label": "Heading"
     },
     {
       "type": "richtext",
-      "id": "content",
+      "id": "text",
       "label": "Content",
-      "default": "Content"
+      "default": "<p>Content</p>"
     },
     {
       "type": "color_scheme",
