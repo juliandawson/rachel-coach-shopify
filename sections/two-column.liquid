@@ -39,7 +39,9 @@
       <div class="grid__item grid__item--left-col scroll-trigger animate--slide-in">
         <div class="card">
           <div class="card__inner">
-            <h2>{{ section.settings.left_content }}</h2>
+            <h2 class="title inline-richtext">
+              {{ section.settings.title }}
+            </h2>
           </div>
         </div>
       </div>
@@ -64,16 +66,22 @@
   },
   "settings": [
     {
-      "type": "textarea",
-      "id": "left_content",
-      "label": "Left Column Content",
-      "default": "Left column content goes here."
+      "type": "inline_richtext",
+      "id": "title",
+      "default": "Heading",
+      "label": "Heading"
     },
     {
-      "type": "textarea",
+      "type": "text",
       "id": "right_content",
       "label": "Right Column Content",
       "default": "Right column content goes here."
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "Color Scheme",
+      "default": "scheme-1"
     }
   ],
   "presets": [
