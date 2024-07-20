@@ -9,10 +9,10 @@
 */
 {
   "sections": {
-    "rich_text_kTzMrQ": {
+    "rich_text_cCWq9g": {
       "type": "rich-text",
       "blocks": {
-        "text_AzRAAf": {
+        "text_nrphLj": {
           "type": "text",
           "settings": {
             "text": "<p><strong>Hi, I’m Rachel<\/strong><\/p><p>I’m a qualified coach and coaching psychologist on a mission to make work a joyful, satisfying and pride-inducing experience for everyone. I work with individuals, groups and coaches to build the work life they want, whatever stage they are at. You might be looking to land your first role, change something about your current one, take the next step, or switch it up completely and try something new. Whatever it is that makes your weekdays as great as your weekends.<\/p><p>If you’re looking to identify and craft a career that you love, and feel confident doing it, I might be the coach for you.<\/p>"
@@ -20,7 +20,7 @@
         }
       },
       "block_order": [
-        "text_AzRAAf"
+        "text_nrphLj"
       ],
       "settings": {
         "desktop_content_position": "left",
@@ -34,14 +34,77 @@
     "two_column_gjtwiy": {
       "type": "two-column",
       "settings": {
-        "title": "Heading",
-        "text": "<p>Content<\/p>",
+        "title": "What is coaching?",
+        "text": "<p>Coaching gives you time and space to explore what's going on for you and what you want to be different. It's a conversation to help you discover and deal with anything that stands in your way (including yourself). Coaching increases your self-awareness and planning power so you can use your unique strengths to get what you want.<\/p><p>You bring the topic. I'll ask the questions you haven't thought of yet or challenge you with the ones you don't want to ask. Together, we'll get you where you want to go. Everyone can benefit from coaching; as long as you're open to it and ready to do the work, coaching is for you.<\/p>",
         "color_scheme": ""
+      }
+    },
+    "two_column_R93eTX": {
+      "type": "two-column",
+      "settings": {
+        "title": "Working together",
+        "text": "<p>I'm supportive and caring. I'm curious. I'm honest. I don't sidestep difficult topics. I don't judge you. I help you get to the heart of what matters. I treat you as an equal. We work as a team.<\/p><p>You're unique, and your coaching sessions will be too. We'll work together to find the approach that helps you get the most out of your coaching sessions.<\/p><p>As a coaching psychologist with a background in project delivery, I bring a toolbox that is jam-packed with a wide range of evidence-based psychological and career models to help you make sense of what’s happening right now and what you want next as well as rigorous planning tools to help you get there.<\/p><p>I believe creative activities boost learning and development; doing something a bit different helps us think differently and see something we couldn't before. I’m a big fan of getting things out of your head and onto paper to help you (quite literally) see things differently. I actively encourage playful experimentation both in and between sessions.<\/p><p>My coaching has been described as being ‘somewhere between a playground and a bootcamp!’ I dig deep to raise awareness of the things you carry into work so you can plan effectively for what you want in your career. Expect an explorative and deep journey with plenty of hard work and fun along the way. <\/p>",
+        "color_scheme": ""
+      }
+    },
+    "multicolumn_yzhCVD": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_8K9AWX": {
+          "type": "column",
+          "settings": {
+            "title": "You will",
+            "text": "<ul><li>Choose what you want to focus on<\/li><li>Decide what success is and how to measure it<\/li><li>Do most of the hard work: thinking and taking action<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9ndzCk": {
+          "type": "column",
+          "settings": {
+            "title": "I will",
+            "text": "<ul><li>Be your loudest cheerleader<\/li><li>Challenge you to step outside your comfort zone and support you if things get rocky<br\/><\/li><li>Provide a confidential, judgement-free space<\/li><li>Share models, tools and techniques that could be useful<\/li><li>Not tell you what to do<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rFQieh": {
+          "type": "column",
+          "settings": {
+            "title": "We will",
+            "text": "<ul><li>Be really clear about how we want to work together<\/li><li>Be flexible and adapt if something isn't working<\/li><li>Give each other feedback<\/li><li>Celebrate your wins<\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_8K9AWX",
+        "column_9ndzCk",
+        "column_rFQieh"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "rich_text_kTzMrQ",
-    "two_column_gjtwiy"
+    "rich_text_cCWq9g",
+    "two_column_gjtwiy",
+    "two_column_R93eTX",
+    "multicolumn_yzhCVD"
   ]
 }
