@@ -11,6 +11,10 @@
     width: 100%;
   }
 
+  .grid__item--left-col .title {
+    margin: 0;
+  }
+
   .card {}
   .card__inner {
     padding: 0 1.5rem 2.5rem;
@@ -39,7 +43,7 @@
       <div class="grid__item grid__item--left-col scroll-trigger animate--slide-in">
         <div class="card">
           <div class="card__inner">
-            <h2 class="inline-richtext">
+            <h2 class="title inline-richtext">
               {{ section.settings.title }}
             </h2>
           </div>
@@ -62,7 +66,10 @@
   "class": "section",
   "tag": "section",
   "disabled_on": {
-    "groups": ["header", "footer"]
+    "groups": [
+      "header",
+      "footer"
+    ]
   },
   "settings": [
     {
