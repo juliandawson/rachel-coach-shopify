@@ -12,14 +12,22 @@
     "rich_text_cCWq9g": {
       "type": "rich-text",
       "blocks": {
+        "heading_QYLXDh": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hi, I’m Rachel",
+            "heading_size": "h2"
+          }
+        },
         "text_nrphLj": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Hi, I’m Rachel<\/strong><\/p><p>I’m a qualified coach and coaching psychologist on a mission to make work a joyful, satisfying and pride-inducing experience for everyone. I work with individuals, groups and coaches to build the work life they want, whatever stage they are at. You might be looking to land your first role, change something about your current one, take the next step, or switch it up completely and try something new. Whatever it is that makes your weekdays as great as your weekends.<\/p><p>If you’re looking to identify and craft a career that you love, and feel confident doing it, I might be the coach for you.<\/p>"
+            "text": "<p>I’m a qualified coach and coaching psychologist on a mission to make work a joyful, satisfying and pride-inducing experience for everyone. I work with individuals, groups and coaches to build the work life they want, whatever stage they are at. You might be looking to land your first role, change something about your current one, take the next step, or switch it up completely and try something new. Whatever it is that makes your weekdays as great as your weekends.<\/p><p>If you’re looking to identify and craft a career that you love, and feel confident doing it, I might be the coach for you.<\/p>"
           }
         }
       },
       "block_order": [
+        "heading_QYLXDh",
         "text_nrphLj"
       ],
       "settings": {
