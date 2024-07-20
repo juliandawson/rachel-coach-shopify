@@ -111,12 +111,140 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_n3HymW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BMyYxP": {
+          "type": "heading",
+          "settings": {
+            "heading": "Services",
+            "heading_size": "h2"
+          }
+        },
+        "text_KGQVgY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If it all sounds good so far, follow the links below to find out more about...<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BMyYxP",
+        "text_KGQVgY"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_bfaYQQ": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_WgzNn7": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_V63bMQ": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xCfU9z": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_WgzNn7",
+        "column_V63bMQ",
+        "column_xCfU9z"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_tFA68i": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_hWrMf9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Can't find what you're looking for?",
+            "heading_size": "h2"
+          }
+        },
+        "text_6kjEn6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>I'll help you figure it out. Drop me a line if you're not sure where to start or you'd like to talk about what you're after.<\/p>"
+          }
+        },
+        "button_4QHFVm": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get in touch",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hWrMf9",
+        "text_6kjEn6",
+        "button_4QHFVm"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "rich_text_cCWq9g",
     "two_column_gjtwiy",
     "two_column_R93eTX",
-    "multicolumn_yzhCVD"
+    "multicolumn_yzhCVD",
+    "rich_text_n3HymW",
+    "multicolumn_bfaYQQ",
+    "rich_text_tFA68i"
   ]
 }
