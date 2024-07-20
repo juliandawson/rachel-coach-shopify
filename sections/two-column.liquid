@@ -1,20 +1,4 @@
-<!-- sections/two-columns.liquid -->
-<div class="two-columns-section">
-  <div class="container">
-    <div class="row">
-      <div class="column left">
-        <!-- Left column content -->
-        {{ section.settings.left_content }}
-      </div>
-      <div class="column right">
-        <!-- Right column content -->
-        {{ section.settings.right_content }}
-      </div>
-    </div>
-  </div>
-</div>
-
-<style>
+{%- style -%}
   .two-columns-section .container {
     display: flex;
     flex-wrap: wrap;
@@ -38,7 +22,22 @@
       flex: 1 1 100%;
     }
   }
-</style>
+{%- endstyle -%}
+
+<div class="two-columns-section">
+  <div class="container">
+    <div class="row">
+      <div class="column left">
+        <!-- Left column content -->
+        {{ section.settings.left_content }}
+      </div>
+      <div class="column right">
+        <!-- Right column content -->
+        {{ section.settings.right_content }}
+      </div>
+    </div>
+  </div>
+</div>
 
 {% schema %}
 {
